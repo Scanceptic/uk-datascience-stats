@@ -5,6 +5,12 @@
   text-align: center;
 }
 
+.leaflet-container {
+  height: 400px;
+  width: 100%;
+  margin: 1rem 0;
+}
+
 .logo {
   height: 6em;
   padding: 1.5em;
