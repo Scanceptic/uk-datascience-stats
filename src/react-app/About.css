@@ -1,0 +1,19 @@
+.grid-container {
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 0px;
+    padding: 0px;
+    margin: 20px;
+    border: 1px solid #ccc;
+}
+
+.grid-container * {
+  font-size: 1.2em;
+  border: 1px solid #ccc;
+  margin: 0px;
+  padding: 20px;
+  text-align: center;
+  align-content: center;
+}
